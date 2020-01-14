@@ -1,0 +1,11 @@
+Darwin Regex Solutions
+
+1. \bs\w+
+
+2. \w+(?=[\.\?])
+
+3. [^\.\?\s][^\.\?]+
+
+4. [^\.\?\s][^\.\?]+struggle for existence[^\.\?\s][^\.\?]+
+
+BONUS. (^\w+)|((?<=[\.\?]\s)\w+)
