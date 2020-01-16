@@ -104,21 +104,30 @@ Ethane.pdb methane.pdb
 ### Reproduce a Folder Structure
 `mkdir 2016-05-20` 
 > creates 2016-05-20 directory
+
 `mkdir 2016-05-20/data` 
 > create data directory inside of 2016-05-20 directory
+
 `mkdir 2016-05-20/data/processed` 
 > create processed directory inside the data directory
+
 `mkdir 2016-05-20/data/raw` 
 > create raw directory inside the data directory
 
+
+
 `mkdir 2016-05-20` 
 > creates 2016-05-20 directory
+
 `cd 2016-05-20` 
 > go into 2016-05-20 directory
+
 `mkdir data` 
 > create data directory
+
 `cd data` 
 > go into data directory
+
 `mkdir raw processed` 
 > create raw and processed directories
 
