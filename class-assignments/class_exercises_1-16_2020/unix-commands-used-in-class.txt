@@ -1,0 +1,10 @@
+   82  rm -r trashier/
+   83  ls
+   84  cd ..
+   85  rm -r trashy
+   86  history
+   87  clear
+   88  history
+   89  clear
+   90  history n > unix-commands-used-in-class.txt
+   91  history 10 > unix-commands-used-in-class.txt
