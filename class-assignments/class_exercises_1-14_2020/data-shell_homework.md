@@ -114,7 +114,7 @@ Ethane.pdb methane.pdb
 `mkdir 2016-05-20/data/raw` 
 > create raw directory inside the data directory
 
-
+---
 
 `mkdir 2016-05-20` 
 > creates 2016-05-20 directory
