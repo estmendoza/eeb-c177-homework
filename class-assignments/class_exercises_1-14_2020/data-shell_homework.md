@@ -10,7 +10,7 @@
 
 
 ### Creating a Directory
-mkdir thesis
+`mkdir thesis`
 
 
 ### Creating a Text File
@@ -49,7 +49,7 @@ mkdir thesis
 ### Moving and Copying
 `mkdir recombine`
 `mv proteins.dat recombine/`
-`cp recombine/proteins.dat ../proteins-saved.dat
+`cp recombine/proteins.dat ../proteins-saved.dat`
 `ls`
 Recombine 
 > You would only see the recombine directory, because we placed the proteins.dat file into the recombine folder, but then copied it (..) to the directory above the one that we’re currently working in.
