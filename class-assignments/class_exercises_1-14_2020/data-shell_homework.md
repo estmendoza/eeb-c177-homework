@@ -87,9 +87,11 @@ Ethane.pdb methane.pdb
 
 ### More on Wildcards
 `cp *calibration.txt backup/calibration` 
-> (*) includes the dates of calibration files and cp copies them into the backup calibration directory
+> (*) includes the dates of calibration files and cp copies them into the backup calibration directory 
+
 `cp 2015-11-* send_to_bob/all_november_files/` 
 > (*) includes all november files and cp copies them to the all_november_files directory inside the send_to_bob  directory
+
 `cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23rd/` 
 > (*) includes all files from the 23rd and cp copies them to the all_datasets_created_on_a_23rd inside the send_to_bob  directory
 
