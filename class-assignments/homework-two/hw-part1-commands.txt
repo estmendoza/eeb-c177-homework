@@ -1,0 +1,13 @@
+   84  mv paragraphs.txt easy-question.txt
+   85  ls
+   86* history 
+   87  ls
+   88  git add -A
+   89  git commit -m "renamed txt file"
+   90  git push origin master
+   91  history 5
+   92  history 8 hw2-part1-commands.txt
+   93  ls
+   94  history hw2-part1-commands.txt
+   95  ls
+   96  history 12 > hw-part1-commands.txt
