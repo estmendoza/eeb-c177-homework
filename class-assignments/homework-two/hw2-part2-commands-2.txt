@@ -1,0 +1,4 @@
+   73  cd ~/Developers/repos/CSB/unix/data/
+   74  cd ~/Developer/repos/CSB/unix/data/
+   75  head -25 Pacifici2013_data.csv | wc -w 
+   76  history 4 > hw2-part2-commands-2.txt
