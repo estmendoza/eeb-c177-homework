@@ -1,0 +1,60 @@
+    1  cd downloads
+    2  cd Downloads/
+    3  sha256sum Anaconda3-2019.10-Linux-x86_64.sh 
+    4  bash Anaconda3-2019.10-Linux-x86_64.sh 
+    5  source ~/.bashrc
+    6  conda list
+    7  python --version
+    8  conda update --all --yes
+    9  jupyter notebook
+   10  sudo apt update
+   11  sudo apt install git
+   12  git --version
+   13  sudo add-apt-repository ppa:webupd8team/atom
+   14  sudo apt-get update
+   15  sudo apt-get install atom
+   16  sudo apt-get install nano
+   17  conda install -c r rstudio
+   18  sudo apt -y install r-base
+   19  sudo apt install gdebi-core
+   20  cd Downloads/
+   21  ls
+   22  sudo gdebi rstudio-1.2.5033-amd64.deb 
+   23  ls
+   24  rstudio
+   25  cd Desktop/
+   26  vim
+   27  nano test-file.txt
+   28  touch new.html
+   29  nano new.html
+   30  nano new.html 
+   31  rm test-file.txt 
+   32  rm new.html 
+   33  git --version
+   34  cd Developer/repos
+   35  git clone https://github.com/CSB-book/CSB.git
+   36  ls
+   37  ls CSB
+   38  ~/Developer/repos/CSB/unix/data/
+   39  cd ~/Developer/repos/CSB/unix/data/
+   40  ls
+   41  Pacifici2013_data.csv
+   42  head Pacifici2013_data.csv
+   43  wc Pacifici2013_data.csv
+   44  head 25 Pacifici2013_data.csv
+   45  head -25 Pacifici2013_data.csv
+   46  head -n Pacifici2013_data.csv
+   47  tail -25 Pacifici2013_data.csv
+   48  head -25 Pacifici2013_data.csv > Pacifici-25lines.txt
+   49  ls
+   50  mv Pacifici-25lines.txt ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+   51  cd ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+   52  ls
+   53  cw Pacifici-25lines.txt 
+   54  wc Pacifici-25lines.txt 
+   55  man wc
+   56  wc -w Pacifici-25lines.txt 
+   57  wc -w Pacifici-25lines.txt > Pacifici-25wordcount.txt
+   58  ls
+   59  history
+   60  history > hw2-part2-commands-1.txt
