@@ -1,0 +1,4 @@
+  112  head -n 11 Pacifici2013_data.csv | cut -d';' -f1 | tail -n +2 
+  113  head -n 11 Pacifici2013_data.csv | cut -d';' -f1 | tail -n +2 > Pacifici-ten.txt
+  114  hist 3 > hw2-part3-commands.txt
+  115  history 4 > hw2-part3-commands.txt
