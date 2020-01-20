@@ -1,0 +1,7 @@
+  143  sort -n fish_species.txt 
+  144  sort -n fish_species.txt > fishes-sort.txt
+  145  sort -r fish_species.txt 
+  146  sort -r fish_species.txt > fishes-rev-sort.txt
+  147  uniq fish_species.txt 
+  148  uniq fish_species.txt > fishes-unique.txt
+  149  history 7 > hw2-part4-commands.txt
