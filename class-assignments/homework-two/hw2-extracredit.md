@@ -2,7 +2,7 @@
 
 ## 1.10.1
 
-2. What is the size of the file?
+2) What is the size of the file?
 `ls -sh my_file.fasta`
 > 556K my_file.fasta
 
