@@ -25,9 +25,10 @@
 
 ## 1.10.2
 
-1. How many times were the levels of individuals 3 and 27 recorded?
+1.1. How many times were the levels of individual 3 recorded?
 `cat Gesquiere2011_data.csv | cut -f1 | grep -wc 3`
 > 61
+1.2. How many times were the levels of individual 27 recorded?
 `cat Gesquiere2011_data.csv | cut -f1 | grep -wc 27`
 > 5
 
