@@ -25,14 +25,14 @@
 
 ## 1.10.2
 
-1.1. How many times were the levels of individual 3 recorded?
+1. How many times were the levels of individual 3 recorded?
 `cat Gesquiere2011_data.csv | cut -f1 | grep -wc 3`
 > 61
-1.2. How many times were the levels of individual 27 recorded?
+2. How many times were the levels of individual 27 recorded?
 `cat Gesquiere2011_data.csv | cut -f1 | grep -wc 27`
 > 5
 
-2. Write a script taking as input the file name and the ID of the individual, and returning the number of records for that ID. 
+3. Write a script taking as input the file name and the ID of the individual, and returning the number of records for that ID. 
 `touch 1.10.2_Q2_EC.sh`
 `gedit 1.10.2_Q2_EC.sh &`
 `echo "what is the animal ID #?"
@@ -41,7 +41,7 @@ x=$(cat Gesquiere2011_data.csv | cut -f1 | grep -wc $ID)
 echo "$x records for ID #$ID."`
 `bash 1.10.2_Q2_EC.sh`
 
-3. Write a script that returns the number of times each individual was sampled. 
+4. Write a script that returns the number of times each individual was sampled. 
 `touch 1.10.2_Q3_EC.sh`
 `gedit 1.10.2_Q3_EC.sh &`
 `for x in {1..127}
