@@ -1,0 +1,15 @@
+FIRST 5 SPECIES
+Eligmodontia typus
+Microtus oregoni
+Peromyscus gossypinus
+Elephantulus myurus
+Peromyscus boylii
+
+
+FIRST 5 UNIQUE SPECIES
+Macroscelidea
+Rodentia
+
+
+UNIQUE NUMBER OF FIRST 5 SPECIES 
+2
