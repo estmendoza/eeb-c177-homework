@@ -37,10 +37,15 @@ $ cat nobel.csv | cut -d',' -f3 | grep -iwc physics
 $ cat nobel.csv | cut -d',' -f5-6 | tail +2 | sort | uniq -d
 ```
 "Comité international de la Croix Rouge (International Committee of the Red Cross)",NA
+
 "Frederick","Sanger"
+
 "John","Bardeen"
+
 "Linus Carl","Pauling"
+
 "Marie","Curie
+
 "Office of the United Nations High Commissioner for Refugees (UNHCR)",NA
  
 ------
