@@ -54,10 +54,15 @@ $ cat nobel.csv | cut -d',' -f5-6 | tail +2 | sort | uniq -d
 $ cat nobel.csv | cut -d',' -f6 | tail +2 | sort | uniq -c | sort -nr | head -n6
 ```
 31 NA
+
 5 "Smith"
+
 4 "Wilson"
+
 4 "Fischer"
+
 3 "Müller"
+
 3 "Lewis"
 
 ------
